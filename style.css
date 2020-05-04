@@ -1,0 +1,66 @@
+body {
+    background: #fefefe;
+}
+
+h1 {
+    color: #1460AA;
+}
+
+h2 {
+    color: goldenrod;
+    background: rgb(59, 3, 59)
+}
+
+footer {
+    object-position: bottom;
+}
+
+.szary-brudnopis {
+    color: rgb(99, 96, 96)
+}
+
+#top {
+    background: rgb(16, 98, 173);
+    margin: 0em;
+    display: block;
+    padding: 2em;
+}
+
+nav {
+    color: rgb(78, 1, 1);
+}
+
+a {
+    color: rgb(160, 184, 27);
+}
+
+.smaller-img {
+    width: 500px;
+}
+
+.lower-img {
+    height: 700px;
+    width: 600px;
+}
+
+div {
+    display: block;
+    background: gray;
+}
+
+p {
+    background-color: rgb(148, 104, 104);
+    padding: 16px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+footer {
+    background-color: rgb(16, 98, 173);
+    padding: 20px;
+    margin-top: -1em;
+    display: block;
+}
