@@ -12,6 +12,10 @@ h2 {
     background: rgb(59, 3, 59)
 }
 
+h3 {
+    background-color: grey;
+}
+
 footer {
     object-position: bottom;
 }
@@ -29,6 +33,7 @@ footer {
 
 nav {
     color: rgb(78, 1, 1);
+    display: inline;
 }
 
 a {
