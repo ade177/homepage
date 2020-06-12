@@ -13,6 +13,8 @@ h2 {
     color: goldenrod;
     background: rgb(59, 3, 59);
     margin: 0 auto;
+    border-radius: 10px;
+    margin: 0em 30em 0px 30em;
 }
 
 h3 {
@@ -37,6 +39,7 @@ footer {
     border-color: rgb(10, 10, 10);
     border-style: solid;
     z-index: 1000;
+    
 }
 
 a {
@@ -91,4 +94,3 @@ footer {
 .photo {
     height: 500px;
     width: 400px;
-}
