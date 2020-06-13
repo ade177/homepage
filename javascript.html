@@ -5,29 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
 
 </head>
 
 <body>
     <main>
         <header class="top">
-            <nav>
-                <a class="menu" href="index.html">Stronga glowna</a>
-                <a class="menu" href="brudnopis.html">Brudnopis</a>
-                <a class="menu" href="html.html">HTML</a>
-                <a class="menu" href="css.html">CSS</a>
-                <a class="menu" href="javascript.html">JavaScript</a>
+            <nav class="navigation">
+                <a class="navigation__link--homepage" href="index.html">Home</a>
+                <a class="navigation__link" href="brudnopis.html">Notes</a>
+                <a class="navigation__link" href="html.html">HTML</a>
+                <a class="navigation__link" href="css.html">Projects</a>
+                <a class="navigation__link" href="javascript.html">Contact</a>
             </nav>
         </header>
 
         <section class="sekcja"> 
             <h1 class="main-header">JavaScript</h1>
-            <img class="smaller-img" src="js-logo.jpg" alt="js-logo" height="300px" width="50px" />
-            <h2>Podstawy do zapamietania!</h2>
-            <p>Nauke Java Scritp zaczynam od ECMAScript 2015+ (ES6+)</p>
-            <div>
-                <p>Java Script sklada sie z:</p>
+            <img class="smaller-img" src="Images/js-logo.jpg" alt="js-logo" height="300px" width="50px" />
+            <h2 class="title__head">Notatki</h2>
+            <article class="title">
+            <h3 class="title__head--special">Podstawy do zapamietania!</h3>         
+            
+                <p class="title__head--text">Java Script sklada sie z:</p>
                 <menu>
 
                     <li>Wartosci,</li>
@@ -37,15 +39,17 @@
                     <li>Obiekty,</li>
                     <li>Funkcje.</li>
                 </menu>
-                <p>Moja pierwsza funkcja:</p>
-                <p>const firstName = 'Adrian';<br> const age = '30';<br> alert('no hej'); <br>console.log(firstName)<br> console.log(age) <br>console.log(`Mam na imie ${firstName} i mam ${age} lat.`)
+            </article>
+            <article class="title"> 
+                <h3 class="title__head--special">Moja pierwsza funkcja:</h3>
+                <p class="title__head--text">const firstName = 'Adrian';<br> const age = '30';<br> alert('no hej'); <br>console.log(firstName)<br> console.log(age) <br>console.log(`Mam na imie ${firstName} i mam ${age} lat.`)
                 </p>
-            </div>
+            </article>
         </section>
     </main>
 
-    <footer>
-        Wynik moich <em>wypocin</em>, podczas kursu <a href=https://cotenfrontend.pl>Macka Korsana</a>.<a href="#top">Wroc na góre strony</a>
+    <footer class="footer">
+        Efekt moich <em>wypocin</em>, podczas szkolenia <a class="footer__link" href=https://cotenfrontend.pl>Macka Korsana</a>.<a href="#top">Wroc na góre strony</a>
     </footer>
     <script src="main.js"></script>
 </body>

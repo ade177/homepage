@@ -1,0 +1,195 @@
+.body {
+    background-image: snow;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-style: verdana;
+    
+}
+.main {
+    
+    margin: 80px auto;
+}
+
+.main__second {
+    display: grid;
+    grid-template-areas: "header header header"
+    "article . aside"
+    "footer footer footer";
+    grid-template-columns: [pierwsza] 1fr [druga] 100px [trzecia] 200px;
+    column-gap: 16px;
+    grid-template-rows: 100px;
+    width: 780px;
+    margin: 60px auto;
+}
+
+.header {
+    grid-area: header;
+    background-color: aqua;
+}
+.aside {
+    grid-area: aside;
+}
+.article {
+    grid-area: article;
+}
+.footer {
+    grid-area: footer;
+}
+footer {
+    object-position: bottom;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.top {        
+    padding: 20px;    
+    font-size: 22px;
+    min-height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);     
+}
+
+a {
+    color: rgb(34, 39, 7);
+}
+
+.aside {
+
+}
+
+.smaller-img {
+    width: 500px;
+}
+
+.lower-img {
+    height: 500px;
+    width: 500px;
+}
+
+p {
+    padding: 16px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.footer {
+    padding: 16px;
+    display: block;
+    margin: 1em 25em 0px 25em;
+    
+}
+.footer__link{
+    padding 8px;
+    color: rgb(32, 130, 221);
+}
+
+.navigation {
+   
+    padding: 20px;    
+    margin: 0px 100px 0px 100px;
+    display: inline-block;
+}
+
+.navigation__link {
+    margin: 20px;
+}
+.navigation__link--homepage {
+    text-decoration-color: rgb(173, 12, 12);
+}
+.navigation__link:hover {
+    color: burlywood;
+}
+.navigation__link--homepage:hover {
+    color: rgb(173, 12, 12);
+}   
+
+.main__header {
+    font-size: 20px;
+    color: rgb(56, 46, 22);
+    
+}
+
+.photo {
+    height: 400px;
+    width: 1100px;
+}
+.title {
+    
+    padding: 5px;
+    margin: 0em 30em 0px 30em; 
+    border: 2px rgb(156, 158, 13) solid;
+
+    
+}
+.title-head {   
+        color: rgb(255, 255, 255);                
+        border-radius: 10px;
+        margin: 1em 15em 1em 15em;        
+    }
+
+.title-head--text {
+    
+    border: 5px rgb(0, 0, 0) solid;
+    margin: 0em 45em 0em 45em;
+    font-style: verdana;
+    font-size: 18px;
+    border-radius: 10px;
+    
+}
+.title__head--special {
+    border-radius: 10px;
+    color: rgb(172, 148, 88);    
+}
+
+.about {
+    color: lightblue;
+}
+
+.about__heading {
+
+}
+
+.about__link {
+    color: tomato;
+}
+
+.about__picture {
+        display: block;
+        max-width: 100%;
+
+}
+
+.hamburger {
+    position: absolute;
+    top: 20px;
+    border: none;
+    background: none;
+}
+
+
+@media screen and (min-width: 768px) {
+.hamburger {
+    display: none;
+}
+.navigation {
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+}
+
+@media screen and (min-width: 420) {
+body {
+        background: red;
+}
+}

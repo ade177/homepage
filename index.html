@@ -5,43 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adrian Nocek</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
 
 </head>
 
-<body>
+<body class="body">
     <header class="top">
-
-        <nav class="navigation">
-            <a class="menu" href="index.html">Stronga glowna</a>
-            <a class="menu" href="brudnopis.html">Brudnopis</a>
-            <a class="menu" href="html.html">HTML</a>
-            <a class="menu" href="css.html">CSS</a>
-            <a class="menu" href="javascript.html">JavaScript</a>
+        <button class="hamburger hamburger--js">Menu</button>
+        <nav class="navigation navigation--js">
+            <a class="navigation__link--homepage" href="index.html">Home</a>
+            <a class="navigation__link" href="brudnopis.html">Notes</a>
+            <a class="navigation__link" href="html.html">HTML</a>
+            <a class="navigation__link" href="css.html">Projects</a>
+            <a class="navigation__link" href="javascript.html">Contact</a>
         </nav>
+        
     </header>
 
-    <main>
-        <h1 class="main-header">Adrian Nocek - Strona Domowa.</h1>
-        <img class="photo" src="IMG_1016.JPG" alt="szczur" />
-        <section class="sekcja">
-            <h2>Kim on jest?</h2>
-            <p>Na co dzien jest kierowca <strong>autokarow</strong>, <br>oraz zapalonym fanem wszelkiego rodzaju wysilku fizycznego.
+    <main class="main">
+        <header class="main__header">
+            <img class="photo" src="Images/main-logo.jpg" alt="mainLogo" />
+        <h1 class="main__heading main__heading--js" id="name">
+            Hello, my name is Adrian. I am a Bus Driver / Front End Developer living in Brighton, UK.
+        </h1>
+        <button class="action--js">Zmien naglowek</button>
+        </header>
+    
+        <section class="about">
+            <h2 class="about__heading">Kim on jest?</h2>
+            <article class="title">
+            <h3></h3>
+            
+            <p class="title__head--text">Na co dzien jest kierowca <strong>autokarow</strong>, <br>oraz zapalonym fanem wszelkiego rodzaju wysilku fizycznego.
             </p>
-        </section>
+        </article>
+        
 
-        <section>
-            <h2>O czym jest ta strona?</h2>
-            <article>
-                <p>Jest to strona o <em>moim</em> postepie nauki podstaw front endu.</p>
+        <article class="title">
+            <h2 class="title__head">O czym jest ta strona?</h2>
+            
+                <p class="title__head--text">Jest to strona o <em>moim</em> postepie nauki podstaw front endu.</p>
+                <p class="title-head__text title-head__text--js"></p>
             </article>
-
+        </section>
     </main>
 
-    <footer>
-        Wynik moich <em>wypocin</em>, podczas kursu <a href=https://cotenfrontend.pl>Macka Korsana</a>.<a href="#top">Wroc na góre strony</a>
+    <footer class="footer">
+        Efekt moich <em>wypocin</em>, podczas szkolenia <a class="footer__link" href=https://cotenfrontend.pl>Macka Korsana</a>.<a href="#top">Wroc na góre strony</a>
     </footer>
-    <script src="main.js"></script>
+    <script src="javascript/main.js"></script>
 </body>
 
 </html>

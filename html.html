@@ -5,33 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adrian Nocek</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
 
 </head>
 
 <body>
     <header class="top">
-
-        <nav>
-            <a class="menu" href="index.html">Stronga glowna</a>
-            <a class="menu" href="brudnopis.html">Brudnopis</a>
-            <a class="menu" href="html.html">HTML</a>
-            <a class="menu" href="css.html">CSS</a>
-            <a class="menu" href="javascript.html">JavaScript</a>
+        <nav class="navigation navigation--js">
+            <a class="navigation__link--homepage" href="index.html">Home</a>
+            <a class="navigation__link" href="brudnopis.html">Notes</a>
+            <a class="navigation__link" href="html.html">HTML</a>
+            <a class="navigation__link" href="css.html">Projects</a>
+            <a class="navigation__link" href="javascript.html">Contact</a>
         </nav>
+        <button class="hamburger hamburger--js">Menu</button>
     </header>
-
-    <main>
-        <h1 class="main-header">Hypertext markup language.</h1>
-        <img src="html-logo.jpg" alt="html-logo" height="500px" width="500px" />
-
-
+    <main class="main__second">
+        <header class="header">
+            <h1>I am a header.</h1>
+        </header>
+        <article class="article">
+            <h2 class="article">I am an article.</h2>
+            <p>
+                Officia consectetur consectetur et cupidatat ea. Qui nostrud sit ea eu elit. Exercitation eiusmod
+                pariatur irure deserunt enim culpa minim irure excepteur dolore ut nisi excepteur. Cupidatat elit id
+                excepteur minim sit cillum velit irure enim eu enim ea ea. Elit est ex dolore incididunt veniam ipsum ut
+                cupidatat ut. Cupidatat dolor duis et nisi.
+            </p>
+            <p>
+                Dolor duis veniam enim nisi eu proident. Velit laborum labore elit occaecat non cupidatat cillum dolore
+                fugiat veniam voluptate. Ad cupidatat irure eu cillum dolor sint tempor qui non elit velit. Minim quis
+                tempor dolore proident id qui exercitation et adipisicing est minim reprehenderit ex laborum. Velit
+                cupidatat et mollit cillum aliquip.
+            </p>
+        </article>
+        <aside class="aside">
+            <h2>Author</h2>
+            <p>
+                In eu proident dolore do reprehenderit. Adipisicing proident reprehenderit minim fugiat sint quis
+                adipisicing fugiat labore minim ipsum adipisicing. Veniam qui deserunt occaecat ullamco proident cillum
+                excepteur mollit occaecat eiusmod. Dolore sint nostrud et incididunt elit. Non sit cillum do
+                consectetur.
+            </p>
+        </aside>
+        <footer class="footer">
+            <p>I am a footer.</p>
+        </footer>
+        
     </main>
-
     <footer>
-        Wynik moich <em>wypocin</em>, podczas kursu <a href=https://cotenfrontend.pl>Macka Korsana</a>.<a href="#top">Wroc na góre strony</a>
+        <p>Efekt moich <em>wypocin</em>, podczas szkolenia <a class="footer__link"
+                href=https://cotenfrontend.pl>Macka Korsana</a>.<a href="#top">Wroc na góre strony</a></p>
     </footer>
-    <script src="main.js"></script>
 </body>
-
 </html>
